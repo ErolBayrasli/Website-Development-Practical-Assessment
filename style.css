@@ -1,0 +1,255 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #F5F5F5;
+    color: #141414;
+  }
+  
+  /* Wrapper styles with background image */
+  .wrapper {
+    background-image: url(img/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    padding: 20px 0;
+    text-align: right;
+  }
+  .navbar ul {
+    list-style-type: none;
+  }
+  .navbar ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .navbar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  .navbar ul li a:hover {
+    color: #10C9C3;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  
+  /* Sections */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Section headings */
+  section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #141414;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Home - Section 1 */
+  #home {
+
+    text-align: center;
+    color: #141414;
+  }
+  #home h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  #home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background-color: #10C9C3;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #787878;
+  }
+  
+  /* About Us - Section 1 */
+  #about {
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #141414;
+  }
+  #about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  #about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Professional Skills - Section 2 */
+  #skills .skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .skill {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .bar {
+    background-color: #10C9C3;
+    height: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Key Statistics - Section 3 */
+  #stats .stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   background-color: #10C9C3; 
+  }
+  .stat {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .stat h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .skills {
+    text-align: right;
+  }
+  /* Work - Section 4 */
+  #work .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .image {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Services - Section 5 */
+  #services .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .service {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials - Section 6 */
+  #testimonials {
+    background-color: #10C9C3;
+    text-align: center;
+    color: #ffffff;
+  }
+  .testimonial {
+    margin-bottom: 30px;
+  }
+  .testimonial p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form - Section 7 */
+  #contact {
+    background-color: #FFFFFF;
+    text-align: center;
+ 
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #787878;
+    border-radius: 5px;
+  }
+  form button {
+    background-color: #10C9C3;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  form button:hover {
+    background-color: #787878;
+  }
+  
+  /* Footer - Section 8 */
+  #footer {
+    background-color: #141414;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #footer p {
+    margin-bottom: 10px;
+  }
+  
